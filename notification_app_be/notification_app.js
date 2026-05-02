@@ -8,7 +8,7 @@ const BASE_URL = "http://20.207.122.201/evaluation-service";
 // keeping headers here so I don’t repeat myself in fetch calls
 const HEADERS = {
   "Content-Type": "application/json",
-  Authorization: `Bearer ${process.env.ACCESS_TOKEN}`, // assuming token exists 🤞
+  Authorization: `Bearer ${process.env.ACCESS_TOKEN}`, 
 };
 
 // quick priority mapping (could’ve used enums but eh… this works)
